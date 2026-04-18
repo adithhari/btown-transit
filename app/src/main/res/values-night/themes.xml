@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material3 DayNight parent handles dark mode automatically -->
+    <!-- Additional night-specific overrides can go here -->
+    <style name="Theme.BloomingtonTransit" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/bt_blue</item>
+        <item name="colorPrimaryVariant">@color/bt_blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/bt_orange</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Home (new start destination) -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.bloomington.transit.presentation.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_busTrackerFragment"
+            app:destination="@id/busTrackerFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_busesToStopFragment"
+            app:destination="@id/busesToStopFragment" />
+    </fragment>
+
+    <!-- Buses to a favourite stop -->
+    <fragment
+        android:id="@+id/busesToStopFragment"
+        android:name="com.bloomington.transit.presentation.home.BusesToStopFragment"
+        android:label="Buses to Stop"
+        tools:layout="@layout/fragment_buses_to_stop">
+        <argument android:name="stopId"   app:argType="string" />
+        <argument android:name="nickname" app:argType="string" />
+        <action
+            android:id="@+id/action_busesToStopFragment_to_journeyTrackerFragment"
+            app:destination="@id/journeyTrackerFragment" />
+    </fragment>
+
+    <!-- Uber-style journey tracker -->
+    <fragment
+        android:id="@+id/journeyTrackerFragment"
+        android:name="com.bloomington.transit.presentation.tracker.JourneyTrackerFragment"
+        android:label="Tracking"
+        tools:layout="@layout/fragment_journey_tracker">
+        <argument android:name="tripId"         app:argType="string" />
+        <argument android:name="boardingStopId" app:argType="string" />
+        <argument android:name="destStopId"     app:argType="string" />
+        <argument android:name="destNickname"   app:argType="string" />
+        <argument android:name="routeName"      app:argType="string" />
+    </fragment>
+
+    <!-- Map -->
+    <fragment
+        android:id="@+id/routeMapFragment"
+        android:name="com.bloomington.transit.presentation.map.RouteMapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_route_map">
+        <action
+            android:id="@+id/action_routeMapFragment_to_busTrackerFragment"
+            app:destination="@id/busTrackerFragment" />
+    </fragment>
+
+    <!-- Vehicle tracker -->
+    <fragment
+        android:id="@+id/busTrackerFragment"
+        android:name="com.bloomington.transit.presentation.tracker.BusTrackerFragment"
+        android:label="Track Bus"
+        tools:layout="@layout/fragment_bus_tracker">
+        <argument android:name="vehicleId" app:argType="string" />
+    </fragment>
+
+    <!-- Trip planner -->
+    <fragment
+        android:id="@+id/tripPlannerFragment"
+        android:name="com.bloomington.transit.presentation.planner.TripPlannerFragment"
+        android:label="Plan Trip"
+        tools:layout="@layout/fragment_trip_planner" />
+
+    <!-- Favourites -->
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.bloomington.transit.presentation.favorites.FavoritesFragment"
+        android:label="Favorites"
+        tools:layout="@layout/fragment_favorites" />
+
+</navigation>

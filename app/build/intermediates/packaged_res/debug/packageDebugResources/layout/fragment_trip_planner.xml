@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/page_background">
+
+    <!-- From / To card -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="16dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Blue origin dot -->
+            <View
+                android:id="@+id/dot_origin"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="@drawable/ic_origin_dot"
+                android:layout_marginStart="18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ac_origin"
+                app:layout_constraintBottom_toBottomOf="@id/ac_origin" />
+
+            <!-- Dashed connector line -->
+            <View
+                android:id="@+id/line_connector"
+                android:layout_width="2dp"
+                android:layout_height="0dp"
+                android:background="?attr/colorOutlineVariant"
+                app:layout_constraintStart_toStartOf="@id/dot_origin"
+                app:layout_constraintEnd_toEndOf="@id/dot_origin"
+                app:layout_constraintTop_toBottomOf="@id/dot_origin"
+                app:layout_constraintBottom_toTopOf="@id/dot_dest" />
+
+            <!-- Red destination pin -->
+            <View
+                android:id="@+id/dot_dest"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="@drawable/ic_dest_dot"
+                android:layout_marginStart="18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ac_dest"
+                app:layout_constraintBottom_toBottomOf="@id/ac_dest" />
+
+            <!-- From field -->
+            <AutoCompleteTextView
+                android:id="@+id/ac_origin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginTop="8dp"
+                android:hint="From — address or place"
+                android:textColorHint="?attr/colorOnSurfaceVariant"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="15sp"
+                android:background="@null"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:completionThreshold="2"
+                android:inputType="textPostalAddress"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/dot_origin"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- Divider -->
+            <View
+                android:id="@+id/divider_fields"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="?attr/colorOutlineVariant"
+                android:layout_marginStart="44dp"
+                app:layout_constraintTop_toBottomOf="@id/ac_origin"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- To field -->
+            <AutoCompleteTextView
+                android:id="@+id/ac_dest"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="8dp"
+                android:hint="To — address or place"
+                android:textColorHint="?attr/colorOnSurfaceVariant"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="15sp"
+                android:background="@null"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:completionThreshold="2"
+                android:inputType="textPostalAddress"
+                android:imeOptions="actionDone"
+                android:maxLines="1"
+                app:layout_constraintTop_toBottomOf="@id/divider_fields"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/dot_dest"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- Swap FAB -->
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btn_swap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                app:srcCompat="@drawable/ic_swap"
+                app:fabSize="mini"
+                app:backgroundTint="@color/swap_fab_bg"
+                app:tint="@color/bt_blue"
+                app:elevation="4dp"
+                android:contentDescription="Swap origin and destination"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Time selector card -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="12dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center_vertical">
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:id="@+id/toggle_time_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:singleSelection="true"
+                app:selectionRequired="true">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_leave_at"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="Leave at"
+                    android:textSize="12sp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_arrive_by"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="Arrive by"
+                    android:textSize="12sp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pick_time"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:text="Now"
+                android:textSize="12sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                app:icon="@android:drawable/ic_menu_recent_history"
+                app:iconSize="16dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Find Routes button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="12dp"
+        android:text="Find Routes"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="26dp"
+        android:backgroundTint="@color/bt_blue" />
+
+    <!-- Status / loading -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_status_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="4dp"
+        android:textSize="12sp"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_no_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No routes found between these locations."
+        android:gravity="center"
+        android:padding="24dp"
+        android:textSize="14sp"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_trip_options"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="12dp" />
+
+</LinearLayout>

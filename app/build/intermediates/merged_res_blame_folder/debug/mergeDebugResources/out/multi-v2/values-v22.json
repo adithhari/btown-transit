@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bloomington.transit.app-mergeDebugResources-52:/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "/Users/adith/.gradle/caches/transforms-4/0a94b3319a9a700a6c2c60b83314879a/transformed/appcompat-1.6.1/res/values-v22/values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,487",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,482,764"
+                    }
+                }
+            ]
+        }
+    ]
+}

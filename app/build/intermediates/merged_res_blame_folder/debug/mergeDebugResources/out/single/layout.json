@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/item_journey_leg.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_journey_leg.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/item_arrival_chip.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_arrival_chip.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/fragment_route_map.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/fragment_route_map.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/item_schedule_entry.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_schedule_entry.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/fragment_bus_tracker.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/fragment_bus_tracker.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/item_transfer_arrow.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_transfer_arrow.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/item_favourite_dest.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_favourite_dest.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/fragment_favorites.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/fragment_favorites.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/sheet_stop_info.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/sheet_stop_info.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/item_nearby_bus.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_nearby_bus.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/item_bus_to_stop.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_bus_to_stop.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/fragment_journey_tracker.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/fragment_journey_tracker.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/fragment_home.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.bloomington.transit.app-mergeDebugResources-53:/layout/fragment_bus_tracker.xml",
+        "source": "com.bloomington.transit.app-main-56:/layout/fragment_bus_tracker.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/fragment_schedule.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/fragment_schedule.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/sheet_ready_to_go.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/sheet_ready_to_go.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/item_stop_schedule_row.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_stop_schedule_row.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/sheet_stop_schedule.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/sheet_stop_schedule.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/item_favorite_stop.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_favorite_stop.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/item_trip_option.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_trip_option.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/activity_main.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/item_place_suggestion.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_place_suggestion.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/fragment_trip_planner.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/fragment_trip_planner.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-mergeDebugResources-53:/layout/fragment_buses_to_stop.xml",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/fragment_buses_to_stop.xml"
+    }
+]

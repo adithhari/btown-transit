@@ -1,0 +1,57 @@
+com.bloomington.transit.app-navigation-common-2.7.7-0 /Users/adith/.gradle/caches/transforms-4/00164d761a112d17fd22064a06c882f2/transformed/navigation-common-2.7.7/res
+com.bloomington.transit.app-appcompat-1.6.1-1 /Users/adith/.gradle/caches/transforms-4/0a94b3319a9a700a6c2c60b83314879a/transformed/appcompat-1.6.1/res
+com.bloomington.transit.app-lifecycle-livedata-2.7.0-2 /Users/adith/.gradle/caches/transforms-4/0eb4eecea1214575e778a9332de6ddc4/transformed/lifecycle-livedata-2.7.0/res
+com.bloomington.transit.app-window-1.0.0-3 /Users/adith/.gradle/caches/transforms-4/0fd9b4d346875e928768be68a0711e3b/transformed/window-1.0.0/res
+com.bloomington.transit.app-fragment-1.6.2-4 /Users/adith/.gradle/caches/transforms-4/172ee13f6fd5c4a5d0aa94df76302008/transformed/fragment-1.6.2/res
+com.bloomington.transit.app-emoji2-views-helper-1.2.0-5 /Users/adith/.gradle/caches/transforms-4/18a1c58933983f34204304ce1a11df08/transformed/emoji2-views-helper-1.2.0/res
+com.bloomington.transit.app-startup-runtime-1.1.1-6 /Users/adith/.gradle/caches/transforms-4/1d279db0e77524c0be248b036b0d58be/transformed/startup-runtime-1.1.1/res
+com.bloomington.transit.app-customview-poolingcontainer-1.0.0-7 /Users/adith/.gradle/caches/transforms-4/1ddcc5640ee2f7e338c43013188adf46/transformed/customview-poolingcontainer-1.0.0/res
+com.bloomington.transit.app-material-1.11.0-8 /Users/adith/.gradle/caches/transforms-4/2520ec18fa98c33d58276c9f3638cf0e/transformed/material-1.11.0/res
+com.bloomington.transit.app-lifecycle-livedata-core-2.7.0-9 /Users/adith/.gradle/caches/transforms-4/28e6121e5b940f68d650fc0a89162308/transformed/lifecycle-livedata-core-2.7.0/res
+com.bloomington.transit.app-navigation-runtime-2.7.7-10 /Users/adith/.gradle/caches/transforms-4/304ecda25a81128bf880cf0964184216/transformed/navigation-runtime-2.7.7/res
+com.bloomington.transit.app-play-services-basement-18.3.0-11 /Users/adith/.gradle/caches/transforms-4/3624116cfe9f5e9d22795f63fab3b8e9/transformed/play-services-basement-18.3.0/res
+com.bloomington.transit.app-core-runtime-2.2.0-12 /Users/adith/.gradle/caches/transforms-4/36b4f302f961d3503b72b58392f84f1c/transformed/core-runtime-2.2.0/res
+com.bloomington.transit.app-lifecycle-viewmodel-savedstate-2.7.0-13 /Users/adith/.gradle/caches/transforms-4/3739506139dce7a599023e6c8789f9df/transformed/lifecycle-viewmodel-savedstate-2.7.0/res
+com.bloomington.transit.app-savedstate-ktx-1.2.1-14 /Users/adith/.gradle/caches/transforms-4/4be262ec2135d50e3366df7edc738df4/transformed/savedstate-ktx-1.2.1/res
+com.bloomington.transit.app-appcompat-resources-1.6.1-15 /Users/adith/.gradle/caches/transforms-4/4cb87cfe2ae7bc9775303ef0851017c8/transformed/appcompat-resources-1.6.1/res
+com.bloomington.transit.app-lifecycle-runtime-ktx-2.7.0-16 /Users/adith/.gradle/caches/transforms-4/54845fdad969d9c87057646128b89e7e/transformed/lifecycle-runtime-ktx-2.7.0/res
+com.bloomington.transit.app-transition-1.4.1-17 /Users/adith/.gradle/caches/transforms-4/60c24a5ac5d5cc22e704dc5cceebfa0f/transformed/transition-1.4.1/res
+com.bloomington.transit.app-fragment-ktx-1.6.2-18 /Users/adith/.gradle/caches/transforms-4/6644f7db606f204b79b4b3933cacb85d/transformed/fragment-ktx-1.6.2/res
+com.bloomington.transit.app-lifecycle-runtime-2.7.0-19 /Users/adith/.gradle/caches/transforms-4/6c4866aade46623d52b6fbb82bca32f9/transformed/lifecycle-runtime-2.7.0/res
+com.bloomington.transit.app-savedstate-1.2.1-20 /Users/adith/.gradle/caches/transforms-4/6d1dc4bddd338090e5cb2d73e6a2f821/transformed/savedstate-1.2.1/res
+com.bloomington.transit.app-recyclerview-1.3.2-21 /Users/adith/.gradle/caches/transforms-4/73c0d5e8c40355950f1fde4a29aaa5af/transformed/recyclerview-1.3.2/res
+com.bloomington.transit.app-navigation-ui-ktx-2.7.7-22 /Users/adith/.gradle/caches/transforms-4/77620574b3da700c0f04b73aeca3d82c/transformed/navigation-ui-ktx-2.7.7/res
+com.bloomington.transit.app-core-1.12.0-23 /Users/adith/.gradle/caches/transforms-4/7a053a201cfac195efaed14273fa2d4c/transformed/core-1.12.0/res
+com.bloomington.transit.app-coordinatorlayout-1.1.0-24 /Users/adith/.gradle/caches/transforms-4/7c4605637c9402fecda72d4975dcdf2e/transformed/coordinatorlayout-1.1.0/res
+com.bloomington.transit.app-activity-1.8.0-25 /Users/adith/.gradle/caches/transforms-4/7f0cdb18a1cb2028427055b55aff3f0e/transformed/activity-1.8.0/res
+com.bloomington.transit.app-navigation-common-ktx-2.7.7-26 /Users/adith/.gradle/caches/transforms-4/8f3ddb050462cfaaf7b3af23a5d36d57/transformed/navigation-common-ktx-2.7.7/res
+com.bloomington.transit.app-constraintlayout-2.1.4-27 /Users/adith/.gradle/caches/transforms-4/91123fb043adffb27eb62ed9b12459be/transformed/constraintlayout-2.1.4/res
+com.bloomington.transit.app-slidingpanelayout-1.2.0-28 /Users/adith/.gradle/caches/transforms-4/942dafbe350f4af4d74d53238328d2bb/transformed/slidingpanelayout-1.2.0/res
+com.bloomington.transit.app-drawerlayout-1.1.1-29 /Users/adith/.gradle/caches/transforms-4/9474e00855304fff2059d75f30b3b1df/transformed/drawerlayout-1.1.1/res
+com.bloomington.transit.app-play-services-maps-18.2.0-30 /Users/adith/.gradle/caches/transforms-4/975c75f04bc604122a0c09fe4c39924c/transformed/play-services-maps-18.2.0/res
+com.bloomington.transit.app-profileinstaller-1.3.0-31 /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/res
+com.bloomington.transit.app-navigation-runtime-ktx-2.7.7-32 /Users/adith/.gradle/caches/transforms-4/9a665da0f3406bc4b2760e0eaca489a7/transformed/navigation-runtime-ktx-2.7.7/res
+com.bloomington.transit.app-navigation-fragment-2.7.7-33 /Users/adith/.gradle/caches/transforms-4/9a940781c986a53f1e7cfe85de906357/transformed/navigation-fragment-2.7.7/res
+com.bloomington.transit.app-play-services-base-18.3.0-34 /Users/adith/.gradle/caches/transforms-4/9f5df321c8a5306404b0f7c39c5e5bfa/transformed/play-services-base-18.3.0/res
+com.bloomington.transit.app-lifecycle-viewmodel-ktx-2.7.0-35 /Users/adith/.gradle/caches/transforms-4/a419ab6569af9bed2e70a044b8023e48/transformed/lifecycle-viewmodel-ktx-2.7.0/res
+com.bloomington.transit.app-navigation-fragment-ktx-2.7.7-36 /Users/adith/.gradle/caches/transforms-4/a446c51b481f4fc1244c4b20f3b5659f/transformed/navigation-fragment-ktx-2.7.7/res
+com.bloomington.transit.app-lifecycle-livedata-core-ktx-2.7.0-37 /Users/adith/.gradle/caches/transforms-4/a891a3529805f5686c11e6819af81839/transformed/lifecycle-livedata-core-ktx-2.7.0/res
+com.bloomington.transit.app-emoji2-1.2.0-38 /Users/adith/.gradle/caches/transforms-4/a9b2112bfd5bd5b896c27c0c6a77decc/transformed/emoji2-1.2.0/res
+com.bloomington.transit.app-datastore-preferences-1.0.0-39 /Users/adith/.gradle/caches/transforms-4/acc98244dde11b5142c7b0f319e60aa4/transformed/datastore-preferences-1.0.0/res
+com.bloomington.transit.app-annotation-experimental-1.3.0-40 /Users/adith/.gradle/caches/transforms-4/ad8e3c7125f7abecc07e6b387e303c33/transformed/annotation-experimental-1.3.0/res
+com.bloomington.transit.app-navigation-ui-2.7.7-41 /Users/adith/.gradle/caches/transforms-4/c5144436436208464ed302d5efcd89e3/transformed/navigation-ui-2.7.7/res
+com.bloomington.transit.app-lifecycle-viewmodel-2.7.0-42 /Users/adith/.gradle/caches/transforms-4/c848c89d5987e3b72a0fa428c0d3a531/transformed/lifecycle-viewmodel-2.7.0/res
+com.bloomington.transit.app-cardview-1.0.0-43 /Users/adith/.gradle/caches/transforms-4/c9d24a569124a41a5739893ea7b97efb/transformed/cardview-1.0.0/res
+com.bloomington.transit.app-viewpager2-1.1.0-beta02-44 /Users/adith/.gradle/caches/transforms-4/cf55ab48687504756dab7e7c2e109f3c/transformed/viewpager2-1.1.0-beta02/res
+com.bloomington.transit.app-lifecycle-livedata-ktx-2.7.0-45 /Users/adith/.gradle/caches/transforms-4/dd88a3c38e191f03d3adad19128d47ad/transformed/lifecycle-livedata-ktx-2.7.0/res
+com.bloomington.transit.app-lifecycle-process-2.7.0-46 /Users/adith/.gradle/caches/transforms-4/de07de6b47b4224f7ae2af9eb89fbfed/transformed/lifecycle-process-2.7.0/res
+com.bloomington.transit.app-activity-ktx-1.8.0-47 /Users/adith/.gradle/caches/transforms-4/f1a490ce9bc6f8c6679dcc06cdfb53df/transformed/activity-ktx-1.8.0/res
+com.bloomington.transit.app-datastore-1.0.0-48 /Users/adith/.gradle/caches/transforms-4/f5df1ad091388a87df81bf77b073ac25/transformed/datastore-1.0.0/res
+com.bloomington.transit.app-core-ktx-1.12.0-49 /Users/adith/.gradle/caches/transforms-4/f7563acb7013aaa53d9f45616f864eb4/transformed/core-ktx-1.12.0/res
+com.bloomington.transit.app-pngs-50 /Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/build/generated/res/pngs/debug
+com.bloomington.transit.app-resValues-51 /Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/build/generated/res/resValues/debug
+com.bloomington.transit.app-packageDebugResources-52 /Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.bloomington.transit.app-packageDebugResources-53 /Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.bloomington.transit.app-debug-54 /Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.bloomington.transit.app-debug-55 /Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/debug/res
+com.bloomington.transit.app-main-56 /Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/res

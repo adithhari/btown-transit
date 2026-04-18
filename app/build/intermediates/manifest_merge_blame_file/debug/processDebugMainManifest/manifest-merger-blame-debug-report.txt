@@ -1,0 +1,218 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bloomington.transit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:6:5-77
+13-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:6:22-74
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:7:5-79
+14-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:7:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:8:5-81
+15-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:9:5-77
+16-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:9:22-74
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+17-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:10:5-87
+17-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:10:22-84
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:18.2.0] /Users/adith/.gradle/caches/transforms-4/975c75f04bc604122a0c09fe4c39924c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:18.2.0] /Users/adith/.gradle/caches/transforms-4/975c75f04bc604122a0c09fe4c39924c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:18.2.0] /Users/adith/.gradle/caches/transforms-4/975c75f04bc604122a0c09fe4c39924c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+22
+23    <queries>
+23-->[com.google.android.gms:play-services-maps:18.2.0] /Users/adith/.gradle/caches/transforms-4/975c75f04bc604122a0c09fe4c39924c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+24
+25        <!-- Needs to be explicitly declared on Android R+ -->
+26        <package android:name="com.google.android.apps.maps" />
+26-->[com.google.android.gms:play-services-maps:18.2.0] /Users/adith/.gradle/caches/transforms-4/975c75f04bc604122a0c09fe4c39924c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+26-->[com.google.android.gms:play-services-maps:18.2.0] /Users/adith/.gradle/caches/transforms-4/975c75f04bc604122a0c09fe4c39924c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+27    </queries>
+28
+29    <permission
+29-->[androidx.core:core:1.12.0] /Users/adith/.gradle/caches/transforms-4/7a053a201cfac195efaed14273fa2d4c/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+30        android:name="com.bloomington.transit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.12.0] /Users/adith/.gradle/caches/transforms-4/7a053a201cfac195efaed14273fa2d4c/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.12.0] /Users/adith/.gradle/caches/transforms-4/7a053a201cfac195efaed14273fa2d4c/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.bloomington.transit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.12.0] /Users/adith/.gradle/caches/transforms-4/7a053a201cfac195efaed14273fa2d4c/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.12.0] /Users/adith/.gradle/caches/transforms-4/7a053a201cfac195efaed14273fa2d4c/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:12:5-39:19
+36        android:allowBackup="true"
+36-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:13:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.12.0] /Users/adith/.gradle/caches/transforms-4/7a053a201cfac195efaed14273fa2d4c/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:icon="@mipmap/ic_launcher"
+40-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:14:9-43
+41        android:label="@string/app_name"
+41-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:15:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:16:9-54
+43        android:supportsRtl="true"
+43-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:17:9-35
+44        android:theme="@style/Theme.BloomingtonTransit" >
+44-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:18:9-56
+45        <meta-data
+45-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:20:9-22:71
+46            android:name="com.google.android.geo.API_KEY"
+46-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:21:13-58
+47            android:value="AIzaSyC0ZrFH9U10AS15V6tKeTMPYKrjEb6brwg" />
+47-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:22:13-68
+48
+49        <activity
+49-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:24:9-32:20
+50            android:name="com.bloomington.transit.presentation.MainActivity"
+50-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:25:13-54
+51            android:exported="true"
+51-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:26:13-36
+52            android:windowSoftInputMode="adjustResize" >
+52-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:27:13-55
+53            <intent-filter>
+53-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:28:13-31:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:29:17-69
+54-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:29:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:30:17-77
+56-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:30:27-74
+57            </intent-filter>
+58        </activity>
+59
+60        <service
+60-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:34:9-37:40
+61            android:name="com.bloomington.transit.tracking.BusTrackingService"
+61-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:35:13-56
+62            android:exported="false"
+62-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:37:13-37
+63            android:foregroundServiceType="dataSync" />
+63-->/Users/adith/Desktop/Luddy Hackathon/bloomington-transit/app/src/main/AndroidManifest.xml:36:13-53
+64
+65        <!-- Needs to be explicitly declared on P+ -->
+66        <uses-library
+66-->[com.google.android.gms:play-services-maps:18.2.0] /Users/adith/.gradle/caches/transforms-4/975c75f04bc604122a0c09fe4c39924c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+67            android:name="org.apache.http.legacy"
+67-->[com.google.android.gms:play-services-maps:18.2.0] /Users/adith/.gradle/caches/transforms-4/975c75f04bc604122a0c09fe4c39924c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+68            android:required="false" />
+68-->[com.google.android.gms:play-services-maps:18.2.0] /Users/adith/.gradle/caches/transforms-4/975c75f04bc604122a0c09fe4c39924c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+69
+70        <activity
+70-->[com.google.android.gms:play-services-base:18.3.0] /Users/adith/.gradle/caches/transforms-4/9f5df321c8a5306404b0f7c39c5e5bfa/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:18.3.0] /Users/adith/.gradle/caches/transforms-4/9f5df321c8a5306404b0f7c39c5e5bfa/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:18.3.0] /Users/adith/.gradle/caches/transforms-4/9f5df321c8a5306404b0f7c39c5e5bfa/transformed/play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:18.3.0] /Users/adith/.gradle/caches/transforms-4/9f5df321c8a5306404b0f7c39c5e5bfa/transformed/play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+74
+75        <meta-data
+75-->[com.google.android.gms:play-services-basement:18.3.0] /Users/adith/.gradle/caches/transforms-4/3624116cfe9f5e9d22795f63fab3b8e9/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+76            android:name="com.google.android.gms.version"
+76-->[com.google.android.gms:play-services-basement:18.3.0] /Users/adith/.gradle/caches/transforms-4/3624116cfe9f5e9d22795f63fab3b8e9/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+77            android:value="@integer/google_play_services_version" />
+77-->[com.google.android.gms:play-services-basement:18.3.0] /Users/adith/.gradle/caches/transforms-4/3624116cfe9f5e9d22795f63fab3b8e9/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.2.0] /Users/adith/.gradle/caches/transforms-4/a9b2112bfd5bd5b896c27c0c6a77decc/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.2.0] /Users/adith/.gradle/caches/transforms-4/a9b2112bfd5bd5b896c27c0c6a77decc/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+81            android:authorities="com.bloomington.transit.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.2.0] /Users/adith/.gradle/caches/transforms-4/a9b2112bfd5bd5b896c27c0c6a77decc/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.2.0] /Users/adith/.gradle/caches/transforms-4/a9b2112bfd5bd5b896c27c0c6a77decc/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.2.0] /Users/adith/.gradle/caches/transforms-4/a9b2112bfd5bd5b896c27c0c6a77decc/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.2.0] /Users/adith/.gradle/caches/transforms-4/a9b2112bfd5bd5b896c27c0c6a77decc/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.2.0] /Users/adith/.gradle/caches/transforms-4/a9b2112bfd5bd5b896c27c0c6a77decc/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/adith/.gradle/caches/transforms-4/de07de6b47b4224f7ae2af9eb89fbfed/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/adith/.gradle/caches/transforms-4/de07de6b47b4224f7ae2af9eb89fbfed/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/adith/.gradle/caches/transforms-4/de07de6b47b4224f7ae2af9eb89fbfed/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+91                android:value="androidx.startup" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+92        </provider>
+93
+94        <uses-library
+94-->[androidx.window:window:1.0.0] /Users/adith/.gradle/caches/transforms-4/0fd9b4d346875e928768be68a0711e3b/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+95            android:name="androidx.window.extensions"
+95-->[androidx.window:window:1.0.0] /Users/adith/.gradle/caches/transforms-4/0fd9b4d346875e928768be68a0711e3b/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+96            android:required="false" />
+96-->[androidx.window:window:1.0.0] /Users/adith/.gradle/caches/transforms-4/0fd9b4d346875e928768be68a0711e3b/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+97        <uses-library
+97-->[androidx.window:window:1.0.0] /Users/adith/.gradle/caches/transforms-4/0fd9b4d346875e928768be68a0711e3b/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+98            android:name="androidx.window.sidecar"
+98-->[androidx.window:window:1.0.0] /Users/adith/.gradle/caches/transforms-4/0fd9b4d346875e928768be68a0711e3b/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+99            android:required="false" />
+99-->[androidx.window:window:1.0.0] /Users/adith/.gradle/caches/transforms-4/0fd9b4d346875e928768be68a0711e3b/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+100
+101        <receiver
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+102            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+103            android:directBootAware="false"
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+104            android:enabled="true"
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+105            android:exported="true"
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+106            android:permission="android.permission.DUMP" >
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+108                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+111                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+114                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+115            </intent-filter>
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+117                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adith/.gradle/caches/transforms-4/98777a7f07bbc3e99eb8f29c52bc9727/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+118            </intent-filter>
+119        </receiver>
+120    </application>
+121
+122</manifest>

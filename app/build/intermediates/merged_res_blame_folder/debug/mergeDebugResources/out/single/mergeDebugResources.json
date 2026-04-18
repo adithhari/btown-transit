@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_ic_layers.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/ic_layers.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_fragment_bus_tracker.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/fragment_bus_tracker.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_item_arrival_chip.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_arrival_chip.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_fragment_home.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_sheet_stop_info.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/sheet_stop_info.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_fragment_buses_to_stop.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/fragment_buses_to_stop.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/menu_menu_main.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_dot_live.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/dot_live.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_ic_star.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/ic_star.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_ic_my_location.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/ic_my_location.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_fragment_schedule.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/fragment_schedule.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_item_stop_schedule_row.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_stop_schedule_row.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_bg_route_badge.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/bg_route_badge.xml"
+    },
+    {
+        "merged": "com.bloomington.transit.app-debug-54:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.bloomington.transit.app-main-56:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_item_trip_option.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_trip_option.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_ic_schedule.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/ic_schedule.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_item_place_suggestion.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_place_suggestion.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_activity_main.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_ic_directions.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/ic_directions.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_bg_eta_badge.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/bg_eta_badge.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_ic_origin_dot.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/ic_origin_dot.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/menu_bottom_nav_menu.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_item_journey_leg.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_journey_leg.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_ic_place.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/ic_place.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_item_schedule_entry.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_schedule_entry.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_fragment_favorites.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/fragment_favorites.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_ic_home.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_ic_bus.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/ic_bus.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_ic_swap.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/ic_swap.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_progress_arrival_track.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/progress_arrival_track.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_bg_place_icon.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/bg_place_icon.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_fragment_trip_planner.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/fragment_trip_planner.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_ic_map.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/ic_map.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_item_transfer_arrow.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_transfer_arrow.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/navigation_nav_graph.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.bloomington.transit.app-debug-54:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.bloomington.transit.app-main-56:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_item_bus_to_stop.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_bus_to_stop.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_fragment_journey_tracker.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/fragment_journey_tracker.xml"
+    },
+    {
+        "merged": "com.bloomington.transit.app-debug-54:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.bloomington.transit.app-main-56:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_item_nearby_bus.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_nearby_bus.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_sheet_ready_to_go.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/sheet_ready_to_go.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_gradient_top_scrim.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/gradient_top_scrim.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_sheet_stop_schedule.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/sheet_stop_schedule.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_item_favorite_stop.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_favorite_stop.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_item_favourite_dest.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/item_favourite_dest.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_bg_dropdown.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/bg_dropdown.xml"
+    },
+    {
+        "merged": "com.bloomington.transit.app-debug-54:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.bloomington.transit.app-main-56:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/layout_fragment_route_map.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/layout/fragment_route_map.xml"
+    },
+    {
+        "merged": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-debug-54:/drawable_ic_dest_dot.xml.flat",
+        "source": "/Users/adith/.gradle/daemon/8.6/com.bloomington.transit.app-main-56:/drawable/ic_dest_dot.xml"
+    }
+]
